@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.recipe-card {
+  background-color: white;
+  color: hsl(24, 5%, 18%);
+  border-radius: 1em;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#introduction {
+  font-weight: 200;
+}
+
+h1 {
+font-weight: 400;
+font-family: "Young Serif", serif;
+font-style: normal;
+}
+
+h2 {
+  color:hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+  font-style: normal;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin: 0;
+  padding-top: 1em;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  text-align: left;
+  font-weight: 400;
+  border-radius: 1em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+#introduction, .ingredients, .instructions, .nutrition, .preparation {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+ol li, ul li {
+  color:hsl(14, 45%, 36%);
+  font-weight: 300;
+  padding-left: 1.1em;
+}
+
+ul li {
+  line-height: 2.2em;
+}
+
+ol li {
+  line-height: 1.7em;
+}
+
+ul, ol {
+  margin: 1.2em;
+  padding: 0;
+}
+
+ol li span, ul li span{
+  color: hsl(30, 10%, 34%);
+  font-weight: 300;
+}
+
+p {
+  color: hsl(30, 10%, 34%);
+}
+
+.instructions ol li, .ingredients ul li {
+  font-weight: 500;
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+
+.nutrition-p {
+  font-weight: 300;
+}
+
+.nutrition-table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  border-bottom: 0.1em solid hsl(30, 18%, 87%);
+}
+
+table tr:last-child {
+  border: 0;
+}
+
+td span {
+  color:hsl(14, 45%, 36%);
+  font-weight: 500;
+}
+
+strong {
+  font-weight: 450;
+}
+
+hr {
+  border: 0.05em hsla(30, 18%, 87%) solid;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ }
+
+ .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+  .recipe-card {
+    background-color: white;
+    border-radius: 1em;
+    max-width: 100vh;
+    margin: 0;
+    padding: 1em;
+  }
+}
